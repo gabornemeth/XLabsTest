@@ -8,6 +8,7 @@ namespace XLabsTest
 	{
 		public XLabsTestPage()
 		{
+			XLabs.Forms.Controls.CheckBox cb;
 			InitializeComponent();
 		}
 	}

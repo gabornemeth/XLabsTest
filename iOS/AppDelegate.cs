@@ -13,7 +13,7 @@ namespace XLabsTest.iOS
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
 			global::Xamarin.Forms.Forms.Init();
-
+			new XLabs.Forms.Controls.CheckBoxRenderer();
 			LoadApplication(new App());
 
 			return base.FinishedLaunching(app, options);
